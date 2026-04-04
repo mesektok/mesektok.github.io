@@ -1,11 +1,11 @@
 # =============================================
 # 기본 정보 (SEO에 매우 중요)
 # =============================================
-title: mesektok 기술 블로그
+title: mesektok tech-art 블로그
 tagline: 개발자 노트 | GitHub Pages | 프로그래밍
 
 description: >-
-  개발, 프로그래밍, GitHub Pages, Jekyll, 기술 블로그 등 
+  개발, 프로그래밍, GitHub Pages, Jekyll, 애드센스 기술 블로그 등 
   실무에서 유용한 지식과 경험을 공유하는 블로그입니다.
 
 # =============================================
@@ -22,7 +22,7 @@ author:
   avatar: /assets/img/avatar.jpg  # 나중에 본인 사진 넣을 때 사용
   bio: 개발자를 꿈꾸며 공부하고 기록하는 사람입니다.
   location: South Korea
-  email: your-email@example.com   # ← 본인 이메일로 변경 (선택)
+  email: enfpguru@gmail.com   # ← 본인 이메일로 변경 (선택)
   links:
     - label: "GitHub"
       icon: "fab fa-github"
@@ -46,7 +46,7 @@ twitter:
 
 social:
   name: mesektok                    # Footer에 표시될 이름
-  email: your-email@example.com     # ← 본인 이메일로 변경
+  email:enfpguru@gmail.com     # ← 본인 이메일로 변경
   links:
     - https://github.com/mesektok
     - https://x.com/EnfpguruD
@@ -58,8 +58,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
-
-
     # Uncomment below to add more social links
     # - https://www.facebook.com/enfpguru
     # - https://www.linkedin.com/in/username
