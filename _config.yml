@@ -242,3 +242,10 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+
+# Chirpy 테마 강제 적용
+layouts_dir: _layouts
+sass:
+  sass_dir: _sass
+  style: compressed
