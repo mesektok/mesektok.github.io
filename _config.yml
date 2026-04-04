@@ -4,7 +4,8 @@ title: mesektok tech-art 블로그
 tagline: 개발자 노트 | GitHub Pages | 프로그래밍
 
 description: >-
-  개발, 프로그래밍, GitHub Pages, Jekyll 관련 실무 지식과 경험을 공유하는 블로그입니다.
+  개발, 프로그래밍, GitHub Pages, Jekyll, 기술 블로그 운영 등 
+  실무에서 유용한 지식과 경험을 공유하는 블로그입니다.
 
 url: "https://mesektok.com"
 baseurl: ""
@@ -16,6 +17,9 @@ author:
 
 lang: ko
 timezone: Asia/Seoul
+
+sass:
+  style: compressed
 
 plugins:
   - jekyll-seo-tag
