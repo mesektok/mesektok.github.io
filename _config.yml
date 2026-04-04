@@ -1,7 +1,7 @@
 remote_theme: cotes2020/jekyll-theme-chirpy
 
 title: mesektok tech-art 블로그
-tagline: 개발자 노트 | GitHub Pages | 프로그래밍
+tagline: "개발자 노트 | GitHub Pages | 프로그래밍"
 
 description: >-
   개발, 프로그래밍, GitHub Pages, Jekyll, 기술 블로그 운영 등 
