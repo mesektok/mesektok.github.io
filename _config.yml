@@ -7,31 +7,30 @@ title: mesektok tech-art 블로그
 tagline: 개발자 노트 | GitHub Pages | 프로그래밍
 
 description: >-
-  개발, 프로그래밍, GitHub Pages, Jekyll, 애드센스 기술 블로그 등 
+  개발, 프로그래밍, GitHub Pages, Jekyll, 기술 블로그 운영 등 
   실무에서 유용한 지식과 경험을 공유하는 블로그입니다.
 
 # =============================================
-# 사이트 URL 설정 (이미 잘 되어 있음)
+# 사이트 URL 설정
 # =============================================
 url: "https://mesektok.com"
 baseurl: ""                     # 커스텀 도메인 사용 시 반드시 빈 값
 
 # =============================================
-# 작성자 (Author) 정보 - 여기서 수정하세요
+# 작성자 정보
 # =============================================
 author:
-  name: mesektok                  # 블로그에 표시될 이름 (자유롭게 변경)
-  avatar: /assets/img/avatar.jpg  # 나중에 본인 사진 넣을 때 사용
+  name: mesektok
   bio: 개발자를 꿈꾸며 공부하고 기록하는 사람입니다.
   location: South Korea
-  email: enfpguru@gmail.com   # ← 본인 이메일로 변경 (선택)
+  email: your-email@example.com     # 본인 이메일로 변경 추천
   links:
-    - label: "GitHub"
+    - label: GitHub
       icon: "fab fa-github"
       url: "https://github.com/mesektok"
-    - label: "X (Twitter)"
+    - label: X
       icon: "fab fa-x-twitter"
-      url: "https://x.com/EnfpguruD"   # 당신의 X 계정
+      url: "https://x.com/EnfpguruD"
 
 # =============================================
 # 기타 필수 설정
@@ -39,6 +38,11 @@ author:
 lang: ko
 timezone: Asia/Seoul
 
+# Chirpy 테마 내부 설정
+sass:
+  style: compressed
+
+  
 # Social / SEO
 github:
   username: mesektok
