@@ -8,12 +8,44 @@ title: Home
 
 {% if featured %}
 <article class="home-featured-post">
-  <!-- 여기 안은 아까 드린 Liquid/HTML 그대로 -->
+  <header class="mb-5">
+    <h1>{{ featured.title }}</h1>
+
+    <div class="post-meta mb-3">
+      <span>{{ featured.date | date: "%b %-d, %Y" }}</span>
+      {% if featured.categories and featured.categories.size > 0 %}
+        <span> · {{ featured.categories | first }}</span>
+      {% endif %}
+    </div>
+  </header>
+
+  <div class="post-content">
+    {{ featured.content }}
+  </div>
 </article>
 {% endif %}
 
 {% if recent_posts.size > 0 %}
 <section class="home-recent mt-5">
-  <!-- 최근 글 카드 코드 -->
+  <h2 class="mb-4">최근 글</h2>
+
+  <div class="recent-grid">
+    {% for post in recent_posts %}
+    <article class="recent-card">
+      <h3>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </h3>
+
+      <div class="post-meta mb-2">
+        <span>{{ post.date | date: "%Y-%m-%d" }}</span>
+        {% if post.categories and post.categories.size > 0 %}
+          <span> · {{ post.categories | first }}</span>
+        {% endif %}
+      </div>
+
+      <p>{{ post.excerpt | strip_html | truncate: 140 }}</p>
+    </article>
+    {% endfor %}
+  </div>
 </section>
 {% endif %}
