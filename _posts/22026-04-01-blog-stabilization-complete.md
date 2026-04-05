@@ -1,5 +1,5 @@
 ---
-title: "글 제목"
+title: "케이시니어 블로그, 드디어 정상화 완료- 네블로그 홈판 구축하다"
 date: 2026-04-01 09:00:00 +0900
 categories: [blog]
 tags: [chirpy, github-pages, jekyll]
