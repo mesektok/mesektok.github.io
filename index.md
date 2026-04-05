@@ -4,8 +4,7 @@ title: Home
 ---
 
 {% assign featured = site.posts.first %}
-{% assign recent_posts = site.posts | offset: 1 | limit: 4 %}
-
+{% assign recent_posts = site.posts | offset: 2 | limit: 2 %}
 {% if featured %}
 <article class="home-featured-post">
   <header class="mb-5">
