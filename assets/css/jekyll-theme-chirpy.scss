@@ -1,3 +1,17 @@
+---
+---
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+/* === Home 커스텀 레이아웃 === */
+
 .home-featured-post {
   margin-bottom: 3rem;
 }
@@ -5,6 +19,14 @@
 .home-featured-post .post-content {
   line-height: 1.9;
   font-size: 1.05rem;
+}
+
+.home-featured-post h1 {
+  margin-bottom: 1rem;
+}
+
+.home-recent {
+  margin-top: 3rem;
 }
 
 .recent-grid {
@@ -28,6 +50,7 @@
 
 .recent-card p {
   margin-bottom: 0;
+  line-height: 1.7;
 }
 
 @media (max-width: 768px) {
