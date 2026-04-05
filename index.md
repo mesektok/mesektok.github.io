@@ -5,7 +5,7 @@ permalink: /
 ---
 
 {% assign featured = site.posts.first %}
-{% assign recent_posts = site.posts | offset: 1 | limit: 1 %}
+{% assign recent_posts = site.posts | offset: 0 | limit: 1 %}
 {% if featured %}
 <article class="home-featured-post">
   <header class="mb-5">
