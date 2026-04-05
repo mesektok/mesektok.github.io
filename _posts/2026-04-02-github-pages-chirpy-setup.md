@@ -4,12 +4,6 @@ date: 2026-04-02 09:00:00 +0900
 categories: [development]
 tags: [github-pages, chirpy, jekyll]
 ---
----
-title: "GitHub Pages에 Chirpy 테마 적용한 과정"
-date: 2026-04-02 09:00:00 +0900
-categories: [development]
-tags: [github-pages, chirpy, jekyll]
----
 
 GitHub Pages로 블로그를 만들 때 Chirpy 테마는 꽤 깔끔한 선택지입니다.
 
