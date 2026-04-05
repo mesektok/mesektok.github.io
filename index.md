@@ -16,6 +16,7 @@ title: Home
       {% if featured.categories and featured.categories.size > 0 %}
         <span> · {{ featured.categories | first }}</span>
       {% endif %}
+      <span> · By {{ featured.author | default: site.social.name }}</span>
     </div>
   </header>
 
