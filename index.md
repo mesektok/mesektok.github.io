@@ -53,12 +53,13 @@ permalink: /
     </div>
     {% endfor %}
   </div>
-{% endfor %} </div> 
-  <div class="text-center mt-5 mb-5">
+{% endfor %} 
+</div> 
+<div class="text-center mt-5 mb-5">
     <a href="{{ '/archives/' | relative_url }}" class="btn btn-outline-primary px-4 py-2" style="border-radius: 2rem; font-weight: 500;">
       최근 글 더 보기  →
     </a>
-  </div>
+</div>
 </div> ```
 
 ### 🛠️ 왜 이렇게 수정했나요?
