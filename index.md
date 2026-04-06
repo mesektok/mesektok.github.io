@@ -4,14 +4,13 @@ title: Home
 permalink: /
 ---
 
-<!-- 최근 글 정확히 2개만 표시 (가장 안전한 방법) -->
-{% assign recent_posts = site.posts | offset: 1 | limit: 2 %}
+{%- assign recent_posts = site.posts | where_exp: "post", "post.hidden != true" -%}
 
 <div class="home-recent mt-5">
   <h2 class="mb-4">최근 글</h2>
-  
+
   <div class="row g-4">
-    {% for post in recent_posts %}
+    {%- for post in recent_posts limit:2 -%}
     <div class="col-md-6 mb-4">
       <div class="card h-100">
         <div class="card-body d-flex flex-column">
@@ -30,6 +29,12 @@ permalink: /
         </div>
       </div>
     </div>
-    {% endfor %}
+    {%- endfor -%}
   </div>
+</div>
+
+<div class="home-more my-5">
+  <a class="btn btn-primary" href="{{ '/archives/' | relative_url }}">
+    최근 글 더 보기 →
+  </a>
 </div>
