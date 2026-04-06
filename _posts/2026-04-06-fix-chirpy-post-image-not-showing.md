@@ -186,9 +186,9 @@ media_subpath: /assets/img/posts/fix-chirpy-post-image-not-showing
 즉, 아래처럼 쓰는 것이 가장 단순합니다.
 
 ```markdown
-
-```
 ![예시 이미지](/assets/img/posts/fix-chirpy-post-image-not-showing/example-01.jpg)
+```
+
 ---
 
 ## 7. `img_path` 와 `image.path` 방식은 대표 이미지와 본문 이미지가 다르게 동작할 수 있다
