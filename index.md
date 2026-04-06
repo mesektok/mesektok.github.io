@@ -4,10 +4,11 @@ title: Home
 permalink: /
 ---
 
+{% comment %} 가장 최근 글 1개를 Featured (대문글)로 사용 {% endcomment %}
 {% assign featured = site.posts.first %}
 
-<!-- 최근 글 2개만 가져오기 -->
-{% assign recent_posts = site.posts | offset: 0 | limit: 2 %}
+{% comment %} Featured를 제외하고 그 다음 최근 글 정확히 2개만 가져오기 {% endcomment %}
+{% assign recent_posts = site.posts | offset: 1 | limit: 2 %}
 
 {% if featured %}
 <article class="home-featured-post">
