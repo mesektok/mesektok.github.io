@@ -26,31 +26,27 @@ permalink: /
 
   <div class="row g-4">
     {% comment %} 
-      - offset: 1 (첫 번째 글은 위에서 보여줬으니 제외)
-      - limit: 2  (이미지처럼 딱 2개만 노출)
+      limit를 3으로 늘려줍니다.
     {% endcomment %}
-    {% for post in site.posts offset: 1 limit: 2 %}
-    <div class="col-md-6">
-      <div class="card h-100 shadow-sm" style="border: 1px solid #dee2e6; border-radius: 0.5rem;">
+    {% for post in site.posts offset: 1 limit: 3 %}
+    
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm border-0 bg-white" style="border-radius: 0.8rem;">
         <div class="card-body d-flex flex-column p-4">
           
-          <h3 class="card-title h5 mb-2">
-            <a href="{{ post.url | relative_url }}" class="text-decoration-none" style="color: #0056b3;">
+          <div class="text-muted small mb-2">
+            {{ post.date | date: "%b %-d, %Y" }}
+          </div>
+          
+          <h3 class="card-title h5 mb-3">
+            <a href="{{ post.url | relative_url }}" class="text-decoration-none text-dark fw-bold">
               {{ post.title }}
             </a>
           </h3>
           
-          <div class="text-muted small mb-4">
-            {{ post.date | date: "%Y-%m-%d" }}
-          </div>
-          
-          <p class="card-text flex-grow-1 text-secondary mb-4">
-            {{ post.excerpt | strip_html | truncate: 120 }}
+          <p class="card-text flex-grow-1 text-secondary small mb-0">
+            {{ post.excerpt | strip_html | truncate: 80 }}
           </p>
-          
-          <a href="{{ post.url | relative_url }}" class="btn btn-outline-primary w-100" style="border-radius: 0.3rem;">
-            자세히 보기 →
-          </a>
           
         </div>
       </div>
