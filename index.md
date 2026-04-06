@@ -53,7 +53,8 @@ permalink: /
     </div>
     {% endfor %}
   </div>
-{% endfor %} </div> <div class="text-center mt-5 mb-5">
+{% endfor %} </div> 
+  <div class="text-center mt-5 mb-5">
     <a href="{{ '/archives/' | relative_url }}" class="btn btn-outline-primary px-4 py-2" style="border-radius: 2rem; font-weight: 500;">
       최근 글 더 보기  →
     </a>
@@ -75,4 +76,4 @@ permalink: /
 
 이제 버튼까지 달아주면 완벽한 홈 화면이 되겠네요! 적용해 보시고 버튼 위치나 모양이 마음에 드시는지 확인해 보세요. 🐜✨
   
-</div>
+
