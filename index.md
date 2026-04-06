@@ -4,27 +4,16 @@ title: Home
 permalink: /
 ---
 
+<!-- 최근 글 2개만 별도 표시 -->
 {% assign recent_posts = site.posts | offset: 1 | limit: 2 %}
 
 <section class="mt-5">
-  <h2 class="mb-4">최근 글</h2>
-  <div class="row g-4">
+  <h2>최근 글 (2개만)</h2>
+  <div class="row">
     {% for post in recent_posts %}
-    <div class="col-md-6">
-      <div class="card h-100">
-        <div class="card-body">
-          <h3>
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          </h3>
-          <div class="small text-muted mb-2">
-            {{ post.date | date: "%Y-%m-%d" }}
-          </div>
-          <p>
-            {{ post.excerpt | strip_html | truncate: 150 }}
-          </p>
-          <a href="{{ post.url | relative_url }}" class="btn btn-outline-primary btn-sm">자세히 보기 →</a>
-        </div>
-      </div>
+    <div class="col-md-6 mb-4">
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <p>{{ post.excerpt | strip_html | truncate: 140 }}</p>
     </div>
     {% endfor %}
   </div>
