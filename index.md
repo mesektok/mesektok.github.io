@@ -25,42 +25,33 @@ permalink: /
   <h2 class="h4 mb-4 fw-bold">최근 글</h2>
 
   <div class="row g-4">
-    {% comment %} 
-      limit를 3으로 늘려줍니다.
-    {% endcomment %}
     {% for post in site.posts offset: 1 limit: 3 %}
-    
     <div class="col-md-4">
       <div class="card h-100 shadow-sm border-0 bg-white" style="border-radius: 0.8rem;">
         <div class="card-body d-flex flex-column p-4">
-          
           <div class="text-muted small mb-2">
             {{ post.date | date: "%b %-d, %Y" }}
           </div>
-          
           <h3 class="card-title h5 mb-3">
             <a href="{{ post.url | relative_url }}" class="text-decoration-none text-dark fw-bold">
               {{ post.title }}
             </a>
           </h3>
-          
           <p class="card-text flex-grow-1 text-secondary small mb-0">
             {{ post.excerpt | strip_html | truncate: 80 }}
           </p>
-          
         </div>
       </div>
     </div>
     {% endfor %}
   </div>
-{% endfor %} 
-</div> 
+  </div>
+
 <div class="text-center mt-5 mb-5">
     <a href="{{ '/archives/' | relative_url }}" class="btn btn-outline-primary px-4 py-2" style="border-radius: 2rem; font-weight: 500;">
-      최근 글 더 보기  →
+      최근 글 더 보기 →
     </a>
 </div>
-</div> ```
 
 ### 🛠️ 왜 이렇게 수정했나요?
 
