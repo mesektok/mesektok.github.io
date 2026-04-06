@@ -1,94 +1,74 @@
 ---
-# Chirpy - 최근 글 2개만 나오는 홈 레이아웃 (include 문제 우회)
+# Chirpy 홈페이지 - 최근 글 정확히 2개만 나오게 (최종 버전)
 ---
 
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: 'ko' }}">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ site.title | default: "mesektok tech-art 블로그" }}</title>
-  
-  <!-- Chirpy 테마의 실제 CSS 파일 불러오기 -->
-  <link rel="stylesheet" href="{{ '/assets/css/jekyll-theme-chirpy.css' | relative_url }}">
-  
-  <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; padding-top: 20px; }
-    .card { border: 1px solid #e0e0e0; transition: all 0.2s; }
-    .card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
-  </style>
-</head>
+{% include head.html %}
 
-<body>
-  <!-- 간단한 상단 네비게이션 -->
-  <header class="border-bottom mb-4 py-3 bg-light">
+<body class="layout--home">
+  {% include header.html %}
+
+  <div id="main" class="main">
     <div class="container">
-      <a href="{{ '/' | relative_url }}" class="h4 text-decoration-none text-dark">
-        {{ site.title | default: "mesektok tech-art 블로그" }}
-      </a>
-    </div>
-  </header>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
 
-  <main class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-9 col-xl-8">
-
-        <!-- 1. 대문글 (가장 최근 포스트 크게) -->
-        {% assign featured = site.posts.first %}
-        {% if featured %}
-        <article class="mb-5 pb-4 border-bottom">
-          <header class="mb-3">
-            <h1 class="display-5 fw-bold">{{ featured.title }}</h1>
-            <div class="text-muted">
-              {{ featured.date | date: "%Y-%m-%d" }}
-              {% if featured.categories.size > 0 %}
-                · {{ featured.categories | first }}
-              {% endif %}
+          <!-- 대문글 (가장 최근 1개 크게 표시) -->
+          {% assign featured = site.posts.first %}
+          {% if featured %}
+          <article class="home-featured-post mb-5">
+            <header class="mb-4">
+              <h1 class="display-4">{{ featured.title }}</h1>
+              <div class="post-meta text-muted">
+                {{ featured.date | date: "%Y-%m-%d" }}
+                {% if featured.categories.size > 0 %}
+                  · {{ featured.categories | first }}
+                {% endif %}
+              </div>
+            </header>
+            <div class="post-content">
+              {{ featured.content }}
             </div>
-          </header>
-          <div class="post-content">
-            {{ featured.content }}
-          </div>
-        </article>
-        {% endif %}
+          </article>
+          {% endif %}
 
-        <!-- 2. 최근 글 정확히 2개만 -->
-        {% assign recent_posts = site.posts | offset: 1 | limit: 2 %}
+          <!-- 최근 글 정확히 2개만 (대문글 제외) -->
+          {% assign recent_posts = site.posts | offset: 1 | limit: 2 %}
 
-        {% if recent_posts.size > 0 %}
-        <section>
-          <h2 class="mb-4">최근 글</h2>
-          <div class="row g-4">
-            {% for post in recent_posts %}
-            <div class="col-md-6">
-              <div class="card h-100">
-                <div class="card-body d-flex flex-column">
-                  <h3 class="card-title fs-5">
-                    <a href="{{ post.url | relative_url }}" class="text-decoration-none">{{ post.title }}</a>
-                  </h3>
-                  <div class="text-muted small mb-3">
-                    {{ post.date | date: "%Y-%m-%d" }}
+          {% if recent_posts.size > 0 %}
+          <section class="mt-5">
+            <h2 class="mb-4">최근 글</h2>
+            <div class="row g-4">
+              {% for post in recent_posts %}
+              <div class="col-md-6">
+                <div class="card h-100">
+                  <div class="card-body d-flex flex-column">
+                    <h3 class="card-title">
+                      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                    </h3>
+                    <div class="post-meta small text-muted mb-3">
+                      {{ post.date | date: "%Y-%m-%d" }}
+                      {% if post.categories.size > 0 %}
+                        · {{ post.categories | first }}
+                      {% endif %}
+                    </div>
+                    <p class="card-text flex-grow-1">
+                      {{ post.excerpt | strip_html | truncate: 150 }}
+                    </p>
+                    <a href="{{ post.url | relative_url }}" class="btn btn-outline-primary btn-sm mt-auto">자세히 보기 →</a>
                   </div>
-                  <p class="card-text flex-grow-1">
-                    {{ post.excerpt | strip_html | truncate: 160 }}
-                  </p>
-                  <a href="{{ post.url | relative_url }}" class="btn btn-outline-primary btn-sm mt-3">자세히 보기 →</a>
                 </div>
               </div>
+              {% endfor %}
             </div>
-            {% endfor %}
-          </div>
-        </section>
-        {% endif %}
+          </section>
+          {% endif %}
 
+        </div>
       </div>
     </div>
-  </main>
+  </div>
 
-  <footer class="mt-5 py-4 bg-light text-center text-muted small">
-    <div class="container">
-      © {{ 'now' | date: '%Y' }} mesektok tech-art 블로그
-    </div>
-  </footer>
+  {% include footer.html %}
+  {% include js.html %}
 </body>
 </html>
