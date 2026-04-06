@@ -1,27 +1,29 @@
 ---
-# Chirpy 커스텀 Home Layout - 최근 글 2개만 표시
+# Chirpy 커스텀 홈 레이아웃 - 최근 글 정확히 2개만
 ---
 
-{% include head.html %}   <!-- head만 먼저 불러옴 (스타일, 메타 등) -->
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'ko' }}">
+{% include head.html %}   <!-- head만 불러와서 스타일, 메타 태그 등 유지 -->
 
 <body class="layout--home">
-  {% include header.html %}   <!-- 이게 안 되면 아래 대체 버전으로 바꿔보세요 -->
+  {% include header.html %}   <!-- 여전히 에러 나면 아래 주석 처리 버전으로 바꾸세요 -->
 
   <div id="main" class="main">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-8 offset-lg-2">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
 
-          <!-- 1. 대문글 (가장 최근 포스트 크게 표시) -->
+          <!-- 대문글 (가장 최근 1개 크게 표시) -->
           {% assign featured = site.posts.first %}
           {% if featured %}
           <article class="home-featured-post mb-5">
             <header class="mb-4">
               <h1 class="display-4">{{ featured.title }}</h1>
               <div class="post-meta text-muted">
-                <span>{{ featured.date | date: "%Y-%m-%d" }}</span>
+                {{ featured.date | date: "%Y-%m-%d" }}
                 {% if featured.categories.size > 0 %}
-                  <span> · {{ featured.categories | first }}</span>
+                  · {{ featured.categories | first }}
                 {% endif %}
               </div>
             </header>
@@ -31,13 +33,12 @@
           </article>
           {% endif %}
 
-          <!-- 2. 최근 글 정확히 2개만 -->
+          <!-- 최근 글 정확히 2개만 -->
           {% assign recent_posts = site.posts | offset: 1 | limit: 2 %}
 
           {% if recent_posts.size > 0 %}
           <section class="mt-5">
             <h2 class="mb-4">최근 글</h2>
-            
             <div class="row">
               {% for post in recent_posts %}
               <div class="col-md-6 mb-4">
@@ -55,7 +56,7 @@
                     <p class="card-text flex-grow-1">
                       {{ post.excerpt | strip_html | truncate: 150 }}
                     </p>
-                    <a href="{{ post.url | relative_url }}" class="btn btn-sm btn-outline-primary mt-auto">읽기 →</a>
+                    <a href="{{ post.url | relative_url }}" class="btn btn-sm btn-outline-primary mt-auto">자세히 보기 →</a>
                   </div>
                 </div>
               </div>
@@ -70,7 +71,7 @@
   </div>
 
   {% include footer.html %}
+  {% include js.html %}
 
-  {% include js.html %}   <!-- Chirpy의 JS 포함 -->
 </body>
 </html>
