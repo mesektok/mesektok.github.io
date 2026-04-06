@@ -107,7 +107,7 @@ Chirpy 관련 안내에서도
 ## 대표 이미지는 어떻게 넣을까?
 
 Chirpy에서 대표 이미지는  
-포스트 맨 위 front matter에 넣습니다. Chirpy는 `image`를 문자열 또는 `path`와 `alt`를 가진 객체 형식으로 받을 수 있습니다. [web:379][web:391]
+포스트 맨 위 front matter에 넣습니다. Chirpy는 `image`를 문자열 또는 `path`와 `alt`를 가진 객체 형식으로 받을 수 있습니다. 
 
 가장 추천하는 방식은 아래와 같습니다.
 
@@ -133,7 +133,7 @@ image:
 ## 본문 이미지는 어떻게 넣을까?
 
 본문 이미지는 front matter가 아니라  
-글 내용 안에서 Markdown으로 직접 넣습니다. Chirpy는 일반 Markdown 이미지 문법과 캡션, 이미지 속성 등을 지원합니다. [web:379][web:442]
+글 내용 안에서 Markdown으로 직접 넣습니다. Chirpy는 일반 Markdown 이미지 문법과 캡션, 이미지 속성 등을 지원합니다. 
 
 예시는 아래와 같습니다.
 
@@ -185,8 +185,7 @@ image:
 이미지가 많은 글이라면  
 매번 긴 경로를 적는 것이 불편할 수 있습니다.
 
-이럴 때 Chirpy에서는 `media_subpath`를 쓸 수 있습니다. Chirpy 문서는 `media_subpath`를 front matter에 두면 현재 글 범위에서 이미지 경로 접두어를 재사용할 수 있다고 설명합니다. [web:379][web:487]
-
+이럴 때 Chirpy에서는 `media_subpath`를 쓸 수 있습니다. Chirpy 문서는 `media_subpath`를 front matter에 두면 현재 글 범위에서 이미지 경로 접두어를 재사용할 수 있다고 설명합니다. 
 예시는 아래와 같습니다.
 
 ```yaml
@@ -331,7 +330,7 @@ _본문 설명용 이미지 예시_
 - GitHub Actions 빌드가 아직 안 끝남
 
 특히 Chirpy 관련 사례에서는  
-정적 이미지가 `_posts`가 아니라 `assets` 아래에 있어야 관리가 쉽고, `image.path` 와 경로 조합 방식에 따라 preview image 동작이 달라질 수 있다고 언급됩니다. [web:426][web:468]
+정적 이미지가 `_posts`가 아니라 `assets` 아래에 있어야 관리가 쉽고, `image.path` 와 경로 조합 방식에 따라 preview image 동작이 달라질 수 있다고 언급됩니다.
 
 그래서 초보자라면  
 일단 **복잡한 조합보다 단순한 절대경로 방식**으로 시작하는 것이 좋습니다.
