@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: Home
 permalink: /
 ---
@@ -7,7 +7,8 @@ permalink: /
 <div class="mt-5 pt-4">
   <h2 class="mb-4 pb-3 border-bottom">최근 글</h2>
 
-  {% assign recent_posts = site.posts | offset: 1 | limit: 2 %}
+  {% comment %} offset을 제거하여 모든 글을 대상으로 확인합니다 {% endcomment %}
+  {% assign recent_posts = site.posts | limit: 4 %}
 
   <div class="row g-4">
     {% for post in recent_posts %}
@@ -29,6 +30,8 @@ permalink: /
         </div>
       </div>
     </div>
+    {% else %}
+      <p class="text-center">현재 등록된 게시글이 없습니다.</p>
     {% endfor %}
   </div>
 </div>
