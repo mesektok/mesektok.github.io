@@ -18,6 +18,7 @@ image:
 
 `![이미지 설명-첫발자국](/assets/img/posts/chirpy-image-path-guide/cover.jpg)`
 (/assets/img/posts/chirpy-image-path-guide/cover.jpg)
+!(/assets/img/posts/chirpy-image-path-guide/cover.jpg)
 #### 1. `!` (느낌표): "이건 사진이야!"
 - **의미**: 브라우저에게 "지금부터 나오는 것은 일반 글자가 아니라 **'이미지'**다!"라고 선언하는 기호입니다.
 - **주의**: 이 느낌표를 빼먹으면 사진 대신 링크 주소 글자만 화면에 덩그러니 남게 되니 꼭 확인하세요.
