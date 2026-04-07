@@ -23,7 +23,7 @@ image:
 - **주의**: 이 느낌표를 빼먹으면 사진 대신 링크 주소 글자만 화면에 덩그러니 남게 되니 꼭 확인하세요.- 
 
 ![이미지 설명-첫발자국](/assets/img/posts/chirpy-image-path-guide/cover.jpg) {: width="800" }
-![이미지 설명](/assets/img/posts/chirpy-image-path-guide/cover.jpg){: width="800" }
+![이미지 설명](/assets/img/posts/chirpy-image-path-guide/cover.jpg)
 
 #### 2. `[이미지 설명]` (대괄호와 대체 텍스트)
 - **의미**: 기술 용어로 **Alt Text(대체 텍스트)**라고 부릅니다.
