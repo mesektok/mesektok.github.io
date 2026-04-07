@@ -1,4 +1,4 @@
-**---
+---
 layout: post
 title: "새 포스트 작성 후 GitHub Actions 확인하는 방법"
 date: 2026-04-06 00:30:00 +0900
