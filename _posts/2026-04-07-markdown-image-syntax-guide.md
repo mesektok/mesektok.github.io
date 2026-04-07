@@ -4,7 +4,7 @@ date: 2026-04-07 13:00:00 +0900
 categories: [블로그, 마크다운]
 tags: [markdown, image, syntax, tutorial, chirpy]
 image:
-  path: /assets/posts/chirpy-image-path-guide/cover.jpg
+  path: /assets/img/posts/chirpy-image-path-guide/cover.jpg
   alt: 마크다운 이미지 문법 가이드 커버
 ---
 
@@ -16,7 +16,7 @@ image:
 
 ### 🔍 마크다운 이미지 코드 분석
 
-`![이미지 설명](/assets/posts/chirpy-image-path-guide/cover.jpg)`
+`![이미지 설명-첫발자국](/assets/img/posts/chirpy-image-path-guide/cover.jpg)`
 
 #### 1. `!` (느낌표): "이건 사진이야!"
 - **의미**: 브라우저에게 "지금부터 나오는 것은 일반 글자가 아니라 **'이미지'**다!"라고 선언하는 기호입니다.
@@ -30,7 +30,7 @@ image:
     - **SEO**: 구글 검색 엔진이 사진의 내용을 파악하는 중요한 단서가 됩니다.
 - **팁**: "애드센스 설정 화면", "가이드 커버"처럼 사진 내용을 짧고 명확하게 적어주세요.
 
-#### 3. `(/assets/posts/.../cover.jpg)` (소괄호와 이미지 경로)
+#### 3. `(/assets/img/posts/.../cover.jpg)` (소괄호와 이미지 경로)
 - **의미**: 사진 파일이 실제로 저장된 **'진짜 주소'**입니다.
 - **역할**: 느낌표(`!`)가 선언한 이미지를 실제로 어디서 가져와야 할지 알려주는 구체적인 정보입니다.
 - **핵심**: 앞서 배운 대로 `/assets`로 시작하는 **절대 경로**를 넣어주면 블로그 어느 페이지에서든 사진을 정확히 찾아옵니다.
@@ -50,4 +50,15 @@ image:
 Chirpy 테마를 사용하신다면, 이미지 코드 바로 뒤에 속성을 붙여 크기까지 조절할 수 있습니다.
 
 ```markdown
-![이미지 설명](/assets/posts/chirpy-image-path-guide/cover.jpg){: width="800" }
+![이미지 설명](/assets/img/posts/chirpy-image-path-guide/cover.jpg){: width="800" }
+이제 코드 한 줄이 어떻게 구성되어 있는지 완벽하게 파악하셨습니다.
+원리를 알면 실수가 줄어들고, 더 멋진 블로그를 만들 수 있습니다.
+지금 바로 여러분의 포스팅에 자신 있게 사진을 넣어보세요! 🚀
+
+---
+
+### 💡 적용 가이드
+1. **파일명**: `2026-04-07-markdown-image-syntax-guide.md`로 설정하여 `_posts` 폴더에 올리세요.
+2. **경로 확인**: 본문에 예시로 든 `/assets/posts/chirpy-image-path-guide/cover.jpg` 경로가 실제 본인의 저장소 구조와 맞는지 확인해 보세요. (만약 `img` 폴더를 새로 만드셨다면 경로 중간에 `img/`를 추가해야 합니다.)
+
+이제 이미지 문법에 대한 완벽한 가이드가 블로그에 게시될 준비가 되었습니다! 🐜✨
