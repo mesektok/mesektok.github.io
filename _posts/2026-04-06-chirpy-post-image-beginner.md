@@ -78,7 +78,7 @@ assets/img/posts/chirpy-image-guide/chirpy-post-image-01.jpg
 형식은 아주 간단합니다.
 
 ```markdown
-
+![가이드 커버 이미지](/assets/posts/chirpy-image-path-guide/cover.jpg)
 ```
 
 여기서 중요한 것은  
@@ -86,11 +86,10 @@ assets/img/posts/chirpy-image-guide/chirpy-post-image-01.jpg
 
 즉,
 
-- 맞는 예: `/assets/img/posts/...`
-- 틀릴 수 있는 예: `assets/img/posts/...`
+**맞는 예**: /assets/posts/chirpy-image-path-guide/cover.jpg
+**틀릴 수 있는 예**: assets/posts/chirpy-image-path-guide/cover.jpg
 
-앞의 `/` 를 빼먹으면 현재 글 주소 기준으로 상대경로가 잡혀서  
-이미지가 안 뜨는 경우가 생길 수 있습니다.
+앞의 / 를 빼먹으면 현재 글 주소 기준으로 상대경로가 잡혀서 이미지가 안 뜨는 경우가 생길 수 있습니다. 반드시 시작은 /assets로 해주세요.
 
 ---
 
