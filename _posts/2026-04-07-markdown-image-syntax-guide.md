@@ -4,8 +4,7 @@ date: 2026-04-07 13:00:00 +0900
 categories: [블로그, 마크다운]
 tags: [markdown, image, syntax, tutorial, chirpy]
 image:
-  path: /assets/img/posts/chirpy-image-path-guide/cover.jpg
-  assets/img/posts/chirpy-image-path-guide/
+  path: /assets/img/posts/chirpy-image-path-guide/cover.jpg  
   alt: 마크다운 이미지 문법 가이드 커버
 ---
 
