@@ -9,6 +9,7 @@ description: >-
 
 url: "https://mesektok.com"
 
+markdown: kramdown
 
 author:
   name: mesektok
