@@ -10,6 +10,9 @@ description: >-
 url: "https://mesektok.com"
 
 markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
 
 author:
   name: mesektok
