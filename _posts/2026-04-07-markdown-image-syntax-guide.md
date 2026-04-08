@@ -21,8 +21,6 @@ image:
 #### 1. `!` (느낌표): "이건 사진이야!"
 - **의미**: 브라우저에게 "지금부터 나오는 것은 일반 글자가 아니라 **'이미지'**다!"라고 선언하는 기호입니다.
 - **주의**: 이 느낌표를 빼먹으면 사진 대신 링크 주소 글자만 화면에 덩그러니 남게 되니 꼭 확인하세요.- 
-
-![이미지 설명-첫발자국](/assets/img/posts/chirpy-image-path-guide/cover.jpg) {: width="500" }
 ![이미지 설명](/assets/img/posts/chirpy-image-path-guide/cover.jpg)
 
 #### 2. `[이미지 설명]` (대괄호와 대체 텍스트)
@@ -52,16 +50,31 @@ image:
 
 Chirpy 테마를 사용하신다면, 이미지 코드 바로 뒤에 속성을 붙여 크기까지 조절할 수 있습니다.
 
-```markdown
-![이미지 설명](/assets/img/posts/chirpy-image-path-guide/cover.jpg){: width="800" }
-이제 코드 한 줄이 어떻게 구성되어 있는지 완벽하게 파악하셨습니다.
-원리를 알면 실수가 줄어들고, 더 멋진 블로그를 만들 수 있습니다.
-지금 바로 여러분의 포스팅에 자신 있게 사진을 넣어보세요! 🚀
+<div align=center>
+  <img src="/assets/img/posts/chirpy-image-path-guide/cover.jpg"
+       alt="이미지 설명"
+       style="display:block; width:800px; max-width:100%; height:auto; margin:0 auto;">
+</div>   
 
+```text
+![이미지 설명](/assets/img/posts/chirpy-image-path-guide/cover.jpg){: width="800" }
+대신해서 마크업 언어로 작성하면
+<code>
+<div align=center>
+  <img src="/assets/img/posts/chirpy-image-path-guide/cover.jpg"
+       alt="이미지 설명"
+       style="display:block; width:800px; max-width:100%; height:auto; margin:0 auto;">
+</div>
+</code>
+```
+> 이제 코드 한 줄이 어떻게 구성되어 있는지 완벽하게 파악하셨습니다. 다만, {: width="800" }코드는 미완이내요!!
+이제 이미지를 나타내는 원리를 알면 실수가 줄어들고, 더 멋진 블로그를 만들 수 있습니다.
+지금 바로 여러분의 포스팅에 자신 있게 사진을 넣어보세요!     화이팅입니다.🚀
 ---
 
 ### 💡 적용 가이드
 1. **파일명**: `2026-04-07-markdown-image-syntax-guide.md`로 설정하여 `_posts` 폴더에 올리세요.
-2. **경로 확인**: 본문에 예시로 든 `/assets/posts/chirpy-image-path-guide/cover.jpg` 경로가 실제 본인의 저장소 구조와 맞는지 확인해 보세요. (만약 `img` 폴더를 새로 만드셨다면 경로 중간에 `img/`를 추가해야 합니다.)
+2. **경로 확인**: 본문에 예시로 든 `/assets/posts/chirpy-image-path-guide/cover.jpg` 경로가 실제 본인의 저장소 구조와 맞는지 확인해 보세요.
+3. (만약 `img` 폴더를 새로 만드셨다면 경로 중간에 `img/`를 추가해야 합니다./assets/img/posts/chirpy-image-path-guide/cover.jpg)
 
 이제 이미지 문법에 대한 완벽한 가이드가 블로그에 게시될 준비가 되었습니다! 🐜✨
