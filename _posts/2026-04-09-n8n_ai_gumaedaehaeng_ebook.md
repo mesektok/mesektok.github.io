@@ -1,3 +1,13 @@
+---
+title: "n8n으로 만드는 AI 구매대행 자동화 실무 전자책"
+date: 2026-04-09 14:00:00 +0900
+categories: [블로그, 자동화]
+tags: [n8n, github, jekyll, infographic, data-visualization]
+image:
+  path: /assets/img/posts/n8n_ai_gumaedaehaeng_ebook/cover.jpg
+  alt: n8n자동화 - ai구매대행 자동화실무
+---
+
 # n8n으로 만드는 AI 구매대행 자동화 실무 전자책
 
 이 전자책은 아마존 상품 후보 발굴, AI 기반 상품 정리, n8n 자동화 루틴 설계, 마켓 등록 준비까지 이어지는 실무형 흐름을 한 권으로 정리한 입문·실전 가이드다. n8n은 트리거, 데이터 흐름, 조건 분기, 외부 API 호출을 시각적으로 설계할 수 있는 워크플로우 자동화 도구이며, 복잡한 반복 업무를 단계적으로 자동화하는 데 강점이 있다.
