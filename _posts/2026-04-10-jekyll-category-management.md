@@ -126,4 +126,4 @@ permalink: /categories/도구/
 
 ---
 
-*📌 [도전기 시리즈 전체 보기](/categories/도전기/)*
+*📌 [도전기 시리즈 전체 보기](/categories/)*
