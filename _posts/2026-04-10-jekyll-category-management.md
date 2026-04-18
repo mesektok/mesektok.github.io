@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Jekyll Chirpy 테마에서 카테고리 관리하는 방법"
-date: 2026-04-18
+date: 2026-04-10
 categories: [도전기, 도구]
 tags: [jekyll, chirpy, 카테고리, github-pages, 블로그운영]
 description: "GitHub Pages Jekyll Chirpy 테마에서 카테고리를 만들고 관리하는 방법을 단계별로 정리합니다."
@@ -23,7 +23,7 @@ Chirpy 테마 기준으로 카테고리 관리 방법을 정리합니다.
 ---
 layout: post
 title: "Notion으로 글감 관리하는 방법"
-date: 2026-04-18
+date: 2026-04-10
 categories: [도전기, 도구]
 tags: [노션, 블로그, 초보]
 ---
