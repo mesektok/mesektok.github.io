@@ -1,11 +1,12 @@
 theme: jekyll-theme-chirpy
 
-title: mesektok tech-art 블로그
-tagline: "개발자 노트 | GitHub Pages | 프로그래밍"
+title: mesektok — 교수의 애드센스 도전기
+tagline: "은퇴 교수의 Git·AI·애드센스 도전기
 
 description: >-
-  개발, 프로그래밍, GitHub Pages, Jekyll, 기술 블로그 운영 등 
-  실무에서 유용한 지식과 경험을 공유하는 블로그입니다.
+  35년 교수직 은퇴 후 Git도 몰랐던 교수가
+  GitHub Pages, Notion, AI로 블로그를 만들고
+  애드센스에 도전하는 과정을 날것 그대로 기록합니다.
 
 url: "https://mesektok.com"
 
@@ -16,7 +17,7 @@ kramdown:
 
 author:
   name: mesektok
-  bio: 개발자를 꿈꾸며 공부하고 기록하는 사람입니다.
+  bio: 35년 교수직 은퇴 후 블로그로 새 출발 중입니다.
   location: South Korea
 
 lang: ko
