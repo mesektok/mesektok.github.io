@@ -1,6 +1,9 @@
-
-
-# Gemini API 키를 n8n에 연결하는 법 — 복사, 붙여넣기, 끝
+---
+title: "Gemini API 키를 n8n에 연결하는 법 — 복사, 붙여넣기, 끝"
+date: 2026-05-11 09:00:00 +0900
+categories: [troubleshooting]
+tags: [chirpy, home, jekyll]
+---
 
 ---
 
