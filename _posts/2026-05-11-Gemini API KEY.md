@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "67세 교수도 5분 만에 발급받았다 — Gemini API 키, 이렇게 쉬웠어?"
-date: 2026-05-18
+date: 2026-05-11
 categories: [도전기]
 tags: [github-pages, jekyll, 블로그시작, 은퇴, 애드센스도전기]
 description: "37년 교수직을 마치고 Git도 몰랐던 제가 GitHub 블로그를 시작한 이유와 과정을 솔직하게 공개합니다."
