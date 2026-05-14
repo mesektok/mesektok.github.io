@@ -2,7 +2,7 @@
 title: 나의 첫 번째 블로그 글
 date: 2026-04-04 21:00:00 +0900
 categories: [블로그, 첫글]
-tags: [시작, 테스트]
+tags: [시작, 테스트, GitHub Pages, Jekyll, chirpy, github-pages]
 ---
 
 드디어 블로그의 첫 글을 발행합니다. 
