@@ -56,7 +56,7 @@ Chirpy 테마를 사용하면서 이를 깨달은 순간, 제 강의에서 학�
 또는 Liquid 문법을 직접 활용할 수도 있습니다:
 
 ```html
-<img src="{{ '/assets/img/posts/2026-05-13/my-image.png' | relative_url }}" alt="설명">
+![설명](<img src="{{ '/assets/img/posts/2026-05-13/my-image.png' | relative_url }}" alt="설명">)
 ```
 
 이 세 가지 방법 중에서, 제가 가장 선호하는 것은 첫 번째입니다. 간단하면서도 명확하거든요. 다만 정확한 경로를 입력해야 한다는 단점이 있습니다.
