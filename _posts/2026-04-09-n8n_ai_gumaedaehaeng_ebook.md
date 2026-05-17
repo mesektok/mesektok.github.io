@@ -96,10 +96,10 @@ AI 구매대행 자동화는 한 개의 거대한 플로우가 아니라, 여러
 목표는 한국 마켓에서 판매 가능한 아마존 상품 후보를 찾기 위한 검색 후보군을 만드는 것이다.
 
 조건:
-- 카테고리: {{$json.target_category}}
-- 판매 채널: {{$json.target_market}}
-- 최대 후보 수: {{$json.max_candidates}}
-- 제외 키워드: {{$json.exclude_keywords}}
+- 카테고리: `$json.target_category`
+- 판매 채널: `$json.target_market`
+- 최대 후보 수: `$json.max_candidates`
+- 제외 키워드: `$json.exclude_keywords`
 - 기능이 직관적이고 리뷰 검증이 가능한 상품 위주
 - 출력은 JSON 배열만
 
@@ -114,9 +114,9 @@ keyword_en, keyword_ko, search_intent, expected_price_band, reason
 목표: 아래 카테고리에서 한국 오픈마켓 판매 가능성이 있는 검색 후보를 만든다.
 
 입력:
-카테고리={{$json.target_category}}
-제외키워드={{$json.exclude_keywords}}
-후보수={{$json.max_candidates}}
+카테고리=`$json.target_category`
+제외키워드=`$json.exclude_keywords`
+후보수=`$json.max_candidates`
 
 평가 기준:
 - 기능 설명이 쉬운가
@@ -238,10 +238,10 @@ return items.map(item => {
 - JSON만 출력
 
 입력:
-상품명={{$json.title}}
-브랜드={{$json.brand}}
-카테고리={{$json.category}}
-특징={{$json.features}}
+상품명=`$json.title`
+브랜드=`$json.brand`
+카테고리=`$json.category`
+특징=`$json.features`
 ```
 
 ### Gemini 상세 요약 프롬프트
@@ -257,9 +257,9 @@ return items.map(item => {
 - JSON으로만 출력
 
 입력:
-title={{$json.title}}
-features={{$json.features}}
-description={{$json.description}}
+title=`$json.title`
+features=`$json.features`
+description=`$json.description`
 ```
 
 ## 워크플로우 4: 성과 점검과 교체
