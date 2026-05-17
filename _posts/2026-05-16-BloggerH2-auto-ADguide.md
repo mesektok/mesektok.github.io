@@ -1,6 +1,6 @@
 ---
 title: "Blogger 템플릿 H2 자동 광고 삽입 완전 가이드 — 빈 공간 없이 운영하는 법"
-date: 2026-054-16 09:00:00 +0900
+date: 2026-05-16 09:00:00 +0900
 categories: [blog]
 tags: [chirpy, github-pages, jekyll]
 ---
