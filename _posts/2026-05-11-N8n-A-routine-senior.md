@@ -147,7 +147,7 @@ Gemini
 ```
 당신은 한국의 시니어 독자를 위한 블로그 작가입니다.
 
-오늘 날짜: {{$now.format('YYYY-MM-DD')}}
+오늘 날짜: `$now.format('YYYY-MM-DD')`
 
 아래 조건에 맞는 블로그 글 초안을 작성해주세요.
 
@@ -192,9 +192,9 @@ Google Sheets
 
 | 열 이름 | 값 |
 |---|---|
-| 날짜 | `{{$now.format('YYYY-MM-DD')}}` |
-| 제목 | `{{$json.message.content[0].text.split('본문:')[0].replace('제목:','').trim()}}` |
-| 내용 | `{{$json.message.content[0].text.split('본문:')[1].trim()}}` |
+| 날짜 | ``$now.format('YYYY-MM-DD')`` |
+| 제목 | ``$json.message.content[0].text.split('본문:')[0].replace('제목:','').trim()`` |
+| 내용 | ``$json.message.content[0].text.split('본문:')[1].trim()`` |
 | 상태 | `대기중` |
 
 > 📸 *[화면 캡처 — Google Sheets 노드 설정]*
