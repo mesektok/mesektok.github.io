@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Git도 몰랐던 교수가 GitHub 블로그를 만든 이유"
-date: 2026-04-18
+date: 2026-04-16
 categories: [도전기]
 tags: [github-pages, jekyll, 블로그시작, 은퇴, 애드센스도전기]
 description: "35년 교수직을 마치고 Git도 몰랐던 제가 GitHub 블로그를 시작한 이유와 과정을 솔직하게 공개합니다."
