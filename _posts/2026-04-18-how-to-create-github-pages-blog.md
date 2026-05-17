@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GitHub Pages 블로그 처음 만드는 전체 과정 (Chirpy 테마)"
-date: 2026-04-20
+date: 2026-04-18
 categories: [도전기, 도구]
 tags: [github-pages, jekyll, chirpy, 블로그만들기, 초보]
 description: "Git도 몰랐던 교수가 GitHub Pages + Chirpy 테마로 블로그를 만든 전체 과정을 단계별로 공개합니다."
@@ -127,7 +127,7 @@ timezone: Asia/Seoul
 ---
 layout: post
 title: "첫 번째 글입니다"
-date: 2026-04-20
+date: 2026-04-18
 categories: [일상]
 tags: [시작, 블로그]
 ---
