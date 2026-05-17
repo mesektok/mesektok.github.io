@@ -153,8 +153,8 @@ WordPress
 | 항목 | 입력값 |
 |---|---|
 | Credential | WordPress 주소 + 아이디/비밀번호 입력 |
-| Title | `{{$json['제목']}}` |
-| Content | `{{$json['내용']}}` |
+| Title | ``$json['제목']`` |
+| Content | ``$json['내용']`` |
 | Status | `publish` (즉시 발행) 또는 `draft` (임시저장) |
 
 > 📸 *[화면 캡처 — WordPress 노드 설정]*
@@ -191,8 +191,8 @@ Blogger는 n8n 전용 노드가 없어서 HTTP 방식으로 연결합니다.
 
 ```json
 {
-  "title": "{{$json['제목']}}",
-  "content": "{{$json['내용']}}"
+  "title": "`$json['제목']`",
+  "content": "`$json['내용']`"
 }
 ```
 
@@ -218,7 +218,7 @@ Blogger는 n8n 전용 노드가 없어서 HTTP 방식으로 연결합니다.
 | Credential | 구글 계정 연동 |
 | Spreadsheet | 같은 시트 |
 | Sheet | Sheet1 |
-| Row Number | `{{$json['row_number']}}` |
+| Row Number | ``$json['row_number']`` |
 | 상태 | `발행완료` |
 
 > 📸 *[화면 캡처 — Google Sheets Update Row 설정]*
@@ -284,7 +284,7 @@ Blog ID가 정확한지 다시 확인하세요.
 ### ❌ 상태가 "발행완료"로 안 바뀔 때
 
 Update Row 노드의 row_number 값이 제대로 연결됐는지 확인하세요.
-`{{$json['row_number']}}` 가 정확히 입력됐는지 보세요.
+``$json['row_number']`` 가 정확히 입력됐는지 보세요.
 
 ---
 
