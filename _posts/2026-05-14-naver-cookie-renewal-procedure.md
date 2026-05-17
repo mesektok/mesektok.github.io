@@ -1,6 +1,6 @@
 ---
 title: "네이버-포스팅-실패-Gmail-알림설정-완료보고서-다메세톡블로그"
-date: 2026-05-13 08:00:00 +0900
+date: 2026-05-14 08:00:00 +0900
 categories: [blog]
 tags: [chirpy, github-pages, jekyll]
 ---
