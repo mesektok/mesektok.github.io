@@ -2,6 +2,7 @@
 title: "GitHub 빌드 에러부터 n8n 자동화 개선까지: 하루 종일 삽질한 67세 교수의 기록"
 slug: github-jekyll-n8n-fix-experience
 date: 2026-05-17 21:00:00 +0900
+render_with_liquid: false
 categories: [기술]
 tags: [GitHub-Pages, Jekyll, n8n, 자동화, 블로그운영]
 description: "GitHub Actions 빌드 실패부터 n8n 자동화 개선, WordPress SEO 수정까지 하루에 모두 해결한 과정"
