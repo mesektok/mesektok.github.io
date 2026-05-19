@@ -57,7 +57,7 @@ n8n 에러 로그에는 이런 메시지가 찍혀 있었습니다.
 새 쿠키를 발급받는 단계입니다. 이 단계만 사람이 직접 해야 합니다.
 
 ```bash
-cd C:\Users\park????\Downloads
+cd C:\Users\park---\Downloads
 python naver_save_cookies.py
 ```
 
@@ -78,7 +78,7 @@ cookies saved
 쿠키가 새로 저장됐으니 서버를 다시 켭니다.
 
 ```bash
-cd C:\Users\박성태
+cd C:\Users\park---
 python naver_poster_final.py
 ```
 
