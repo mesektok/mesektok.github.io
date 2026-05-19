@@ -105,6 +105,8 @@ exclude:
   - "*.config.js"
   - "package*.json"
 
+timezone: Asia/Seoul  
+
 jekyll-archives:
   enabled: [categories, tags]
   layouts:
