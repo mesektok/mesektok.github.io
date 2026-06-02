@@ -6,7 +6,7 @@
     <link>https://damesek.com</link>
     <description>35년 교수직 은퇴 후 AI·블로그·애드센스에 도전하는 다메섹 교수의 실전 기록</description>
     <language>ko-KR</language>
-    <lastBuildDate>Tue, 02 Jun 2026 02:01:27 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2026 02:26:59 GMT</lastBuildDate>
     <itunes:author>다메섹 교수</itunes:author>
     <itunes:owner>
       <itunes:name>다메섹 교수</itunes:name>
@@ -14,7 +14,7 @@
     </itunes:owner>
     <itunes:category text="Education"/>
     <itunes:explicit>false</itunes:explicit>
-    <itunes:image href="https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/assets/img/podcast_cover_3000x3000.png"/>
+    <itunes:image href="https://mesektok.github.io/assets/img/podcast_cover_3000x3000.png"/>
     
     <item>
       <title><![CDATA[은퇴 교수가 애드센스로 월 50만 원 벌기까지 1년 반의 기록]]></title>
@@ -235,6 +235,20 @@
       <enclosure url="https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780365678807.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Tue, 02 Jun 2026 02:01:25 GMT</pubDate>
       <guid isPermaLink="false">https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780365678807.mp3</guid>
+      <itunes:title><![CDATA[GitHub Pages 배포 후 CSS가 안 먹히는 이유, 드디어 알았습니다]]></itunes:title>
+      <itunes:author>다메섹 교수</itunes:author>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title><![CDATA[GitHub Pages 배포 후 CSS가 안 먹히는 이유, 드디어 알았습니다]]></title>
+      <link>https://damesektok.com/posts/github-pages-css-jekyll-baseurl/</link>
+      <description><![CDATA[이 팟캐스트는 damesek.com 블로그 포스팅을 음성으로 변환한 콘텐츠입니다.
+📖 원문 보기: https://damesektok.com/posts/github-pages-css-jekyll-baseurl/
+🌐 블로그: https://damesek.com]]></description>
+      <enclosure url="https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780367212204.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Tue, 02 Jun 2026 02:26:57 GMT</pubDate>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780367212204.mp3</guid>
       <itunes:title><![CDATA[GitHub Pages 배포 후 CSS가 안 먹히는 이유, 드디어 알았습니다]]></itunes:title>
       <itunes:author>다메섹 교수</itunes:author>
       <itunes:explicit>false</itunes:explicit>
