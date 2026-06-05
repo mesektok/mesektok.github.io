@@ -6,7 +6,7 @@
     <link>https://damesek.com</link>
     <description>35년 교수직 은퇴 후 AI·블로그·애드센스에 도전하는 다메섹 교수의 실전 기록</description>
     <language>ko-KR</language>
-    <lastBuildDate>Thu, 04 Jun 2026 03:19:06 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 03:18:46 GMT</lastBuildDate>
     <itunes:author>다메섹 교수</itunes:author>
     <itunes:owner>
       <itunes:name>다메섹 교수</itunes:name>
@@ -16,6 +16,20 @@
     <itunes:explicit>false</itunes:explicit>
    <itunes:image href="https://res.cloudinary.com/drw6zoumr/image/upload/v1780367954/podcast_cover_3000x3000_ej1i4a.png"/>
     
+    <item>
+      <title><![CDATA[GitHub Pages 배포 실패의 90%는 _config.yml 설정 때문이었다]]></title>
+      <link>https://damesektok.com/posts/github-pages-config-yml-troubleshooting/</link>
+      <description><![CDATA[이 팟캐스트는 damesek.com 블로그 포스팅을 음성으로 변환한 콘텐츠입니다.
+📖 원문 보기: https://damesektok.com/posts/github-pages-config-yml-troubleshooting/
+🌐 블로그: https://damesek.com]]></description>
+      <enclosure url="https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780629517977.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Fri, 05 Jun 2026 03:18:43 GMT</pubDate>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780629517977.mp3</guid>
+      <itunes:title><![CDATA[GitHub Pages 배포 실패의 90%는 _config.yml 설정 때문이었다]]></itunes:title>
+      <itunes:author>다메섹 교수</itunes:author>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
     <item>
       <title><![CDATA[GitHub Pages 무료 호스팅에서 HTTPS까지, 내가 겪은 세 가지 설정 함정]]></title>
       <link>https://damesektok.com/posts/github-pages-https-setup-guide/</link>
