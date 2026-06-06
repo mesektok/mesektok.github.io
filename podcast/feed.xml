@@ -6,7 +6,7 @@
     <link>https://damesek.com</link>
     <description>35년 교수직 은퇴 후 AI·블로그·애드센스에 도전하는 다메섹 교수의 실전 기록</description>
     <language>ko-KR</language>
-    <lastBuildDate>Fri, 05 Jun 2026 03:18:46 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2026 04:28:11 GMT</lastBuildDate>
     <itunes:author>다메섹 교수</itunes:author>
     <itunes:owner>
       <itunes:name>다메섹 교수</itunes:name>
@@ -17,14 +17,28 @@
    <itunes:image href="https://res.cloudinary.com/drw6zoumr/image/upload/v1780367954/podcast_cover_3000x3000_ej1i4a.png"/>
     
     <item>
+      <title><![CDATA[GitHub Pages에서 Jekyll 블로그 배포 시 자동 빌드 실패? 원인과 해결책]]></title>
+      <link>https://damesektok.com/posts/jekyll-github-pages-build-failure-fix/</link>
+      <description><![CDATA[이 팟캐스트는 damesek.com 블로그 포스팅을 음성으로 변환한 콘텐츠입니다.
+📖 원문 보기: https://damesektok.com/posts/jekyll-github-pages-build-failure-fix/
+🌐 블로그: https://damesek.com]]></description>
+      <enclosure url="https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780720083981.mp3" type="audio/mpeg" length="0"/>
+      <pubDate>Sat, 06 Jun 2026 04:28:09 GMT</pubDate>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780720083981.mp3</guid>
+      <itunes:title><![CDATA[GitHub Pages에서 Jekyll 블로그 배포 시 자동 빌드 실패? 원인과 해결책]]></itunes:title>
+      <itunes:author>다메섹 교수</itunes:author>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
       <title><![CDATA[GitHub Pages 배포 실패의 90%는 _config.yml 설정 때문이었다]]></title>
       <link>https://damesektok.com/posts/github-pages-config-yml-troubleshooting/</link>
       <description><![CDATA[이 팟캐스트는 damesek.com 블로그 포스팅을 음성으로 변환한 콘텐츠입니다.
 📖 원문 보기: https://damesektok.com/posts/github-pages-config-yml-troubleshooting/
 🌐 블로그: https://damesek.com]]></description>
-      <enclosure url="https://mesektok.github.io/assets/audio/podcast_1780629517977.mp3" type="audio/mpeg" length="1"/>
+      <enclosure url="https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780629517977.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Fri, 05 Jun 2026 03:18:43 GMT</pubDate>
-      <guid isPermaLink="false">https://mesektok.github.io/assets/audio/podcast_1780629517977.mp3</guid>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780629517977.mp3</guid>
       <itunes:title><![CDATA[GitHub Pages 배포 실패의 90%는 _config.yml 설정 때문이었다]]></itunes:title>
       <itunes:author>다메섹 교수</itunes:author>
       <itunes:explicit>false</itunes:explicit>
@@ -36,9 +50,9 @@
       <description><![CDATA[이 팟캐스트는 damesek.com 블로그 포스팅을 음성으로 변환한 콘텐츠입니다.
 📖 원문 보기: https://damesektok.com/posts/github-pages-https-setup-guide/
 🌐 블로그: https://damesek.com]]></description>
-      <enclosure url="https://mesektok.github.io/assets/audio/podcast_1780529624035.mp3" type="audio/mpeg" length="1"/>
+      <enclosure url="https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780529624035.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Wed, 03 Jun 2026 23:33:50 GMT</pubDate>
-      <guid isPermaLink="false">https://mesektok.github.io/assets/audio/podcast_1780529624035.mp3</guid>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780529624035.mp3</guid>
       <itunes:title><![CDATA[GitHub Pages 무료 호스팅에서 HTTPS까지, 내가 겪은 세 가지 설정 함정]]></itunes:title>
       <itunes:author>다메섹 교수</itunes:author>
       <itunes:explicit>false</itunes:explicit>
@@ -50,9 +64,9 @@
       <description><![CDATA[이 팟캐스트는 damesek.com 블로그 포스팅을 음성으로 변환한 콘텐츠입니다.
 📖 원문 보기: https://damesektok.com/posts/github-pages-https-setup-guide/
 🌐 블로그: https://damesek.com]]></description>
-      <enclosure url="https://mesektok.github.io/assets/audio/podcast_1780529630394.mp3" type="audio/mpeg" length="1"/>
+      <enclosure url="https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780529630394.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Wed, 03 Jun 2026 23:33:55 GMT</pubDate>
-      <guid isPermaLink="false">https://mesektok.github.io/assets/audio/podcast_1780529630394.mp3</guid>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780529630394.mp3</guid>
       <itunes:title><![CDATA[GitHub Pages 무료 호스팅에서 HTTPS까지, 내가 겪은 세 가지 설정 함정]]></itunes:title>
       <itunes:author>다메섹 교수</itunes:author>
       <itunes:explicit>false</itunes:explicit>
@@ -64,9 +78,9 @@
       <description><![CDATA[이 팟캐스트는 damesek.com 블로그 포스팅을 음성으로 변환한 콘텐츠입니다.
 📖 원문 보기: https://damesektok.com/posts/jekyll-github-pages-build-failure-fix/
 🌐 블로그: https://damesek.com]]></description>
-      <enclosure url="https://mesektok.github.io/assets/audio/podcast_1780543138467.mp3" type="audio/mpeg" length="1"/>
+      <enclosure url="https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780543138467.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Thu, 04 Jun 2026 03:19:04 GMT</pubDate>
-      <guid isPermaLink="false">https://mesektok.github.io/assets/audio/podcast_1780543138467.mp3</guid>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780543138467.mp3</guid>
       <itunes:title><![CDATA[GitHub Pages에서 Jekyll 블로그가 빌드 실패하는 이유와 해결법]]></itunes:title>
       <itunes:author>다메섹 교수</itunes:author>
       <itunes:explicit>false</itunes:explicit>
@@ -78,9 +92,9 @@
       <description><![CDATA[이 팟캐스트는 damesek.com 블로그 포스팅을 음성으로 변환한 콘텐츠입니다.
 📖 원문 보기: https://damesektok.com/posts/adsense-revenue-journey-senior-blogger/
 🌐 블로그: https://damesek.com]]></description>
-      <enclosure url="https://mesektok.github.io/assets/audio/podcast_1780287815633.mp3" type="audio/mpeg" length="1"/>
+      <enclosure url="https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780287815633.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Mon, 01 Jun 2026 04:23:36 GMT</pubDate>
-      <guid isPermaLink="false">https://mesektok.github.io/assets/audio/podcast_1780287815633.mp3</guid>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780287815633.mp3</guid>
       <itunes:title><![CDATA[은퇴 교수가 애드센스로 월 50만 원 벌기까지 1년 반의 기록]]></itunes:title>
       <itunes:author>다메섹 교수</itunes:author>
       <itunes:explicit>false</itunes:explicit>
@@ -92,9 +106,9 @@
       <description><![CDATA[이 팟캐스트는 damesek.com 블로그 포스팅을 음성으로 변환한 콘텐츠입니다.
 📖 원문 보기: https://damesektok.com/posts/adsense-revenue-journey-senior-blogger/
 🌐 블로그: https://damesek.com]]></description>
-      <enclosure url="https://mesektok.github.io/assets/audio/podcast_1780293229201.mp3" type="audio/mpeg" length="1"/>
+      <enclosure url="https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780293229201.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Mon, 01 Jun 2026 05:53:52 GMT</pubDate>
-      <guid isPermaLink="false">https://mesektok.github.io/assets/audio/podcast_1780293229201.mp3</guid>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780293229201.mp3</guid>
       <itunes:title><![CDATA[은퇴 교수가 애드센스로 월 50만 원 벌기까지 1년 반의 기록]]></itunes:title>
       <itunes:author>다메섹 교수</itunes:author>
       <itunes:explicit>false</itunes:explicit>
@@ -106,9 +120,9 @@
       <description><![CDATA[이 팟캐스트는 damesek.com 블로그 포스팅을 음성으로 변환한 콘텐츠입니다.
 📖 원문 보기: https://damesektok.com/posts/adsense-revenue-journey-senior-blogger/
 🌐 블로그: https://damesek.com]]></description>
-      <enclosure url="https://mesektok.github.io/assets/audio/podcast_1780297738657.mp3" type="audio/mpeg" length="1"/>
+      <enclosure url="https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780297738657.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Mon, 01 Jun 2026 07:09:01 GMT</pubDate>
-      <guid isPermaLink="false">https://mesektok.github.io/assets/audio/podcast_1780297738657.mp3</guid>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780297738657.mp3</guid>
       <itunes:title><![CDATA[은퇴 교수가 애드센스로 월 50만 원 벌기까지 1년 반의 기록]]></itunes:title>
       <itunes:author>다메섹 교수</itunes:author>
       <itunes:explicit>false</itunes:explicit>
@@ -120,9 +134,9 @@
       <description><![CDATA[이 팟캐스트는 damesek.com 블로그 포스팅을 음성으로 변환한 콘텐츠입니다.
 📖 원문 보기: https://damesektok.com/posts/adsense-revenue-journey-senior-blogger/
 🌐 블로그: https://damesek.com]]></description>
-      <enclosure url="https://mesektok.github.io/assets/audio/podcast_1780311367790.mp3" type="audio/mpeg" length="1"/>
+      <enclosure url="https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780311367790.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Mon, 01 Jun 2026 10:56:11 GMT</pubDate>
-      <guid isPermaLink="false">https://mesektok.github.io/assets/audio/podcast_1780311367790.mp3</guid>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780311367790.mp3</guid>
       <itunes:title><![CDATA[은퇴 교수가 애드센스로 월 50만 원 벌기까지 1년 반의 기록]]></itunes:title>
       <itunes:author>다메섹 교수</itunes:author>
       <itunes:explicit>false</itunes:explicit>
@@ -134,9 +148,9 @@
       <description><![CDATA[이 팟캐스트는 damesek.com 블로그 포스팅을 음성으로 변환한 콘텐츠입니다.
 📖 원문 보기: https://damesektok.com/posts/adsense-revenue-journey-senior-blogger/
 🌐 블로그: https://damesek.com]]></description>
-      <enclosure url="https://mesektok.github.io/assets/audio/podcast_1780312381959.mp3" type="audio/mpeg" length="1"/>
+      <enclosure url="https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780312381959.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Mon, 01 Jun 2026 11:13:09 GMT</pubDate>
-      <guid isPermaLink="false">https://mesektok.github.io/assets/audio/podcast_1780312381959.mp3</guid>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780312381959.mp3</guid>
       <itunes:title><![CDATA[은퇴 교수가 애드센스로 월 50만 원 벌기까지 1년 반의 기록]]></itunes:title>
       <itunes:author>다메섹 교수</itunes:author>
       <itunes:explicit>false</itunes:explicit>
@@ -148,9 +162,9 @@
       <description><![CDATA[이 팟캐스트는 damesek.com 블로그 포스팅을 음성으로 변환한 콘텐츠입니다.
 📖 원문 보기: https://damesektok.com/posts/adsense-revenue-journey-senior-blogger/
 🌐 블로그: https://damesek.com]]></description>
-      <enclosure url="https://mesektok.github.io/assets/audio/podcast_1780313431814.mp3" type="audio/mpeg" length="1"/>
+      <enclosure url="https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780313431814.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Mon, 01 Jun 2026 11:30:38 GMT</pubDate>
-      <guid isPermaLink="false">https://mesektok.github.io/assets/audio/podcast_1780313431814.mp3</guid>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780313431814.mp3</guid>
       <itunes:title><![CDATA[은퇴 교수가 애드센스로 월 50만 원 벌기까지 1년 반의 기록]]></itunes:title>
       <itunes:author>다메섹 교수</itunes:author>
       <itunes:explicit>false</itunes:explicit>
@@ -162,9 +176,9 @@
       <description><![CDATA[이 팟캐스트는 damesek.com 블로그 포스팅을 음성으로 변환한 콘텐츠입니다.
 📖 원문 보기: https://damesektok.com/posts/adsense-revenue-journey-senior-blogger/
 🌐 블로그: https://damesek.com]]></description>
-      <enclosure url="https://mesektok.github.io/assets/audio/podcast_1780313884116.mp3" type="audio/mpeg" length="1"/>
+      <enclosure url="https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780313884116.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Mon, 01 Jun 2026 11:38:11 GMT</pubDate>
-      <guid isPermaLink="false">https://mesektok.github.io/assets/audio/podcast_1780313884116.mp3</guid>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780313884116.mp3</guid>
       <itunes:title><![CDATA[은퇴 교수가 애드센스로 월 50만 원 벌기까지 1년 반의 기록]]></itunes:title>
       <itunes:author>다메섹 교수</itunes:author>
       <itunes:explicit>false</itunes:explicit>
@@ -176,9 +190,9 @@
       <description><![CDATA[이 팟캐스트는 damesek.com 블로그 포스팅을 음성으로 변환한 콘텐츠입니다.
 📖 원문 보기: https://damesektok.com/posts/adsense-revenue-journey-senior-blogger/
 🌐 블로그: https://damesek.com]]></description>
-      <enclosure url="https://mesektok.github.io/assets/audio/podcast_1780314235916.mp3" type="audio/mpeg" length="1"/>
+      <enclosure url="https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780314235916.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Mon, 01 Jun 2026 11:44:03 GMT</pubDate>
-      <guid isPermaLink="false">https://mesektok.github.io/assets/audio/podcast_1780314235916.mp3</guid>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780314235916.mp3</guid>
       <itunes:title><![CDATA[은퇴 교수가 애드센스로 월 50만 원 벌기까지 1년 반의 기록]]></itunes:title>
       <itunes:author>다메섹 교수</itunes:author>
       <itunes:explicit>false</itunes:explicit>
@@ -190,9 +204,9 @@
       <description><![CDATA[이 팟캐스트는 damesek.com 블로그 포스팅을 음성으로 변환한 콘텐츠입니다.
 📖 원문 보기: https://damesektok.com/posts/adsense-revenue-journey-senior-blogger/
 🌐 블로그: https://damesek.com]]></description>
-      <enclosure url="https://mesektok.github.io/assets/audio/podcast_1780314532523.mp3" type="audio/mpeg" length="1"/>
+      <enclosure url="https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780314532523.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Mon, 01 Jun 2026 11:48:58 GMT</pubDate>
-      <guid isPermaLink="false">https://mesektok.github.io/assets/audio/podcast_1780314532523.mp3</guid>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780314532523.mp3</guid>
       <itunes:title><![CDATA[은퇴 교수가 애드센스로 월 50만 원 벌기까지 1년 반의 기록]]></itunes:title>
       <itunes:author>다메섹 교수</itunes:author>
       <itunes:explicit>false</itunes:explicit>
@@ -204,9 +218,9 @@
       <description><![CDATA[이 팟캐스트는 damesek.com 블로그 포스팅을 음성으로 변환한 콘텐츠입니다.
 📖 원문 보기: https://damesektok.com/posts/adsense-revenue-journey-senior-blogger/
 🌐 블로그: https://damesek.com]]></description>
-      <enclosure url="https://mesektok.github.io/assets/audio/podcast_1780315799256.mp3" type="audio/mpeg" length="1"/>
+      <enclosure url="https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780315799256.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Mon, 01 Jun 2026 12:10:03 GMT</pubDate>
-      <guid isPermaLink="false">https://mesektok.github.io/assets/audio/podcast_1780315799256.mp3</guid>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780315799256.mp3</guid>
       <itunes:title><![CDATA[은퇴 교수가 애드센스로 월 50만 원 벌기까지 1년 반의 기록]]></itunes:title>
       <itunes:author>다메섹 교수</itunes:author>
       <itunes:explicit>false</itunes:explicit>
@@ -218,9 +232,9 @@
       <description><![CDATA[이 팟캐스트는 damesek.com 블로그 포스팅을 음성으로 변환한 콘텐츠입니다.
 📖 원문 보기: https://damesektok.com/posts/adsense-revenue-journey-senior-blogger/
 🌐 블로그: https://damesek.com]]></description>
-      <enclosure url="https://mesektok.github.io/assets/audio/podcast_1780315963730.mp3" type="audio/mpeg" length="1"/>
+      <enclosure url="https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780315963730.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Mon, 01 Jun 2026 12:17:47 GMT</pubDate>
-      <guid isPermaLink="false">https://mesektok.github.io/assets/audio/podcast_1780315963730.mp3</guid>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780315963730.mp3</guid>
       <itunes:title><![CDATA[은퇴 교수가 애드센스로 월 50만 원 벌기까지 1년 반의 기록]]></itunes:title>
       <itunes:author>다메섹 교수</itunes:author>
       <itunes:explicit>false</itunes:explicit>
@@ -232,9 +246,9 @@
       <description><![CDATA[이 팟캐스트는 damesek.com 블로그 포스팅을 음성으로 변환한 콘텐츠입니다.
 📖 원문 보기: https://damesektok.com/posts/adsense-revenue-journey-senior-blogger/
 🌐 블로그: https://damesek.com]]></description>
-      <enclosure url="https://mesektok.github.io/assets/audio/podcast_1780319953656.mp3" type="audio/mpeg" length="1"/>
+      <enclosure url="https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780319953656.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Mon, 01 Jun 2026 13:19:20 GMT</pubDate>
-      <guid isPermaLink="false">https://mesektok.github.io/assets/audio/podcast_1780319953656.mp3</guid>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780319953656.mp3</guid>
       <itunes:title><![CDATA[은퇴 교수가 애드센스로 월 50만 원 벌기까지 1년 반의 기록]]></itunes:title>
       <itunes:author>다메섹 교수</itunes:author>
       <itunes:explicit>false</itunes:explicit>
@@ -246,9 +260,9 @@
       <description><![CDATA[이 팟캐스트는 damesek.com 블로그 포스팅을 음성으로 변환한 콘텐츠입니다.
 📖 원문 보기: https://damesektok.com/posts/adsense-revenue-journey-senior-blogger/
 🌐 블로그: https://damesek.com]]></description>
-      <enclosure url="https://mesektok.github.io/assets/audio/podcast_1780320195184.mp3" type="audio/mpeg" length="1"/>
+      <enclosure url="https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780320195184.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Mon, 01 Jun 2026 13:23:23 GMT</pubDate>
-      <guid isPermaLink="false">https://mesektok.github.io/assets/audio/podcast_1780320195184.mp3</guid>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780320195184.mp3</guid>
       <itunes:title><![CDATA[은퇴 교수가 애드센스로 월 50만 원 벌기까지 1년 반의 기록]]></itunes:title>
       <itunes:author>다메섹 교수</itunes:author>
       <itunes:explicit>false</itunes:explicit>
@@ -260,9 +274,9 @@
       <description><![CDATA[이 팟캐스트는 damesek.com 블로그 포스팅을 음성으로 변환한 콘텐츠입니다.
 📖 원문 보기: https://damesektok.com/posts/adsense-revenue-journey-senior-blogger/
 🌐 블로그: https://damesek.com]]></description>
-      <enclosure url="https://mesektok.github.io/assets/audio/podcast_1780320578038.mp3" type="audio/mpeg" length="1"/>
+      <enclosure url="https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780320578038.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Mon, 01 Jun 2026 13:29:42 GMT</pubDate>
-      <guid isPermaLink="false">https://mesektok.github.io/assets/audio/podcast_1780320578038.mp3</guid>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780320578038.mp3</guid>
       <itunes:title><![CDATA[은퇴 교수가 애드센스로 월 50만 원 벌기까지 1년 반의 기록]]></itunes:title>
       <itunes:author>다메섹 교수</itunes:author>
       <itunes:explicit>false</itunes:explicit>
@@ -274,9 +288,9 @@
       <description><![CDATA[이 팟캐스트는 damesek.com 블로그 포스팅을 음성으로 변환한 콘텐츠입니다.
 📖 원문 보기: https://damesektok.com/posts/github-pages-css-jekyll-baseurl/
 🌐 블로그: https://damesek.com]]></description>
-      <enclosure url="https://mesektok.github.io/assets/audio/podcast_1780362466367.mp3" type="audio/mpeg" length="1"/>
+      <enclosure url="https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780362466367.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Tue, 02 Jun 2026 01:07:52 GMT</pubDate>
-      <guid isPermaLink="false">https://mesektok.github.io/assets/audio/podcast_1780362466367.mp3</guid>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780362466367.mp3</guid>
       <itunes:title><![CDATA[GitHub Pages 배포 후 CSS가 안 먹히는 이유, 드디어 알았습니다]]></itunes:title>
       <itunes:author>다메섹 교수</itunes:author>
       <itunes:explicit>false</itunes:explicit>
@@ -288,9 +302,9 @@
       <description><![CDATA[이 팟캐스트는 damesek.com 블로그 포스팅을 음성으로 변환한 콘텐츠입니다.
 📖 원문 보기: https://damesektok.com/posts/github-pages-css-jekyll-baseurl/
 🌐 블로그: https://damesek.com]]></description>
-      <enclosure url="https://mesektok.github.io/assets/audio/podcast_1780365678807.mp3" type="audio/mpeg" length="1"/>
+      <enclosure url="https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780365678807.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Tue, 02 Jun 2026 02:01:25 GMT</pubDate>
-      <guid isPermaLink="false">https://mesektok.github.io/assets/audio/podcast_1780365678807.mp3</guid>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780365678807.mp3</guid>
       <itunes:title><![CDATA[GitHub Pages 배포 후 CSS가 안 먹히는 이유, 드디어 알았습니다]]></itunes:title>
       <itunes:author>다메섹 교수</itunes:author>
       <itunes:explicit>false</itunes:explicit>
@@ -302,9 +316,9 @@
       <description><![CDATA[이 팟캐스트는 damesek.com 블로그 포스팅을 음성으로 변환한 콘텐츠입니다.
 📖 원문 보기: https://damesektok.com/posts/github-pages-css-jekyll-baseurl/
 🌐 블로그: https://damesek.com]]></description>
-      <enclosure url="https://mesektok.github.io/assets/audio/podcast_1780367212204.mp3" type="audio/mpeg" length="1"/>
+      <enclosure url="https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780367212204.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Tue, 02 Jun 2026 02:26:57 GMT</pubDate>
-      <guid isPermaLink="false">https://mesektok.github.io/assets/audio/podcast_1780367212204.mp3</guid>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780367212204.mp3</guid>
       <itunes:title><![CDATA[GitHub Pages 배포 후 CSS가 안 먹히는 이유, 드디어 알았습니다]]></itunes:title>
       <itunes:author>다메섹 교수</itunes:author>
       <itunes:explicit>false</itunes:explicit>
@@ -316,9 +330,9 @@
       <description><![CDATA[이 팟캐스트는 damesek.com 블로그 포스팅을 음성으로 변환한 콘텐츠입니다.
 📖 원문 보기: https://damesektok.com/posts/github-pages-css-jekyll-baseurl/
 🌐 블로그: https://damesek.com]]></description>
-      <enclosure url="https://mesektok.github.io/assets/audio/podcast_1780368178993.mp3" type="audio/mpeg" length="1"/>
+      <enclosure url="https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780368178993.mp3" type="audio/mpeg" length="0"/>
       <pubDate>Tue, 02 Jun 2026 02:43:04 GMT</pubDate>
-      <guid isPermaLink="false">https://mesektok.github.io/assets/audio/podcast_1780368178993.mp3</guid>
+      <guid isPermaLink="false">https://raw.githubusercontent.com/mesektok/mesektok.github.io/main/podcast/audio/podcast_1780368178993.mp3</guid>
       <itunes:title><![CDATA[GitHub Pages 배포 후 CSS가 안 먹히는 이유, 드디어 알았습니다]]></itunes:title>
       <itunes:author>다메섹 교수</itunes:author>
       <itunes:explicit>false</itunes:explicit>
