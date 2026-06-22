@@ -1,7 +1,7 @@
 ---
 title: "다-메세톡 블로그, 드디어 정상화 완료- 블로그 홈판 구축하라"
 date: 2026-05-12 09:00:00 +0900
-categories: [blog]
+categories: [blog,n8n]
 tags: [chirpy, github-pages, jekyll]
 ---
 
@@ -79,7 +79,7 @@ tags: [chirpy, github-pages, jekyll]
 [개인 PC]                          [Hostinger VPS]
     │                                     │
     ├─ naver_save_cookies.py         ├─ n8n (24시간)
-    │  (브라우저 로그인 → 쿠키 저장)  ├─ Workflow A (콘텐츠 생성)
+    │  (브라우저 로그인 → 쿠키 저장)   ├─ Workflow A (콘텐츠 생성)
     │                                │ ├─ Workflow C (네이버 포스팅)
     └─ 쿠키 파일 → VPS로 전송 ──────→ └─ Flask 서버 (24시간)
 ```
