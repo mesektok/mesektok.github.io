@@ -6,7 +6,7 @@
     <link>https://damesek.com</link>
     <description>35년 교수직 은퇴 후 AI·블로그·애드센스에 도전하는 다메섹 교수의 실전 기록</description>
     <language>ko-KR</language>
-    <lastBuildDate>Sat, 11 Jul 2026 02:01:15 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jul 2026 03:35:22 GMT</lastBuildDate>
     <itunes:author>다메섹 교수</itunes:author>
     <itunes:owner>
       <itunes:name>다메섹 교수</itunes:name>
@@ -22,9 +22,9 @@
       <description><![CDATA[이 팟캐스트는 damesek.com 블로그 포스팅을 음성으로 변환한 콘텐츠입니다.
 📖 원문 보기: https://damesek.com/posts/jekyll-github-pages-build-failure-solutions/
 🌐 블로그: https://damesek.com]]></description>
-      <enclosure url="https://mesektok.github.io/assets/audio/podcast_20260711020108.mp3" type="audio/wav" length="900573"/>
-      <pubDate>Sat, 11 Jul 2026 02:01:14 GMT</pubDate>
-      <guid isPermaLink="false">https://mesektok.github.io/assets/audio/podcast_20260711020108.mp3</guid>
+      <enclosure url="https://mesektok.github.io/assets/audio/podcast_20260711033516.mp3" type="audio/wav" length="1033173"/>
+      <pubDate>Sat, 11 Jul 2026 03:35:21 GMT</pubDate>
+      <guid isPermaLink="false">https://mesektok.github.io/assets/audio/podcast_20260711033516.mp3</guid>
       <itunes:title><![CDATA[GitHub Pages에서 Jekyll 빌드가 자꾸 실패하는 이유, 드디어 알았습니다]]></itunes:title>
       <itunes:author>다메섹 교수</itunes:author>
       <itunes:explicit>false</itunes:explicit>
