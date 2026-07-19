@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head><title>Threads Callback</title></head>
+<body style="font-family:sans-serif;padding:40px;">
+  <h2>인증 코드</h2>
+  <p id="code" style="font-size:18px;background:#eee;padding:20px;word-break:break-all;"></p>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    document.getElementById('code').textContent = params.get('code') || '코드 없음: ' + window.location.search;
+  </script>
+</body>
+</html>
